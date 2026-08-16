@@ -6,6 +6,14 @@ The goal of this project is to help me learn the notion of continuous integratio
 
 I wrote a GitHub action file ``deploy.yml`` that deploys any changes made to the index.html file to GitHub Pages. It should only deploy the file when the ``index.html`` file is changed.
 
+## Repotree
+├── .github
+│   └── workflows
+│       └── deploy.yml
+├── .gitignore
+├── index.html
+└── README.md
+
 ## Specification
 
 1. Automatically deploy `index.html` changes to GitHub Pages when pushed to `main` branch

@@ -13,3 +13,5 @@ I wrote a GitHub action file ``deploy.yml`` that deploys any changes made to the
 3. Checkout repository, build artifacts, and deploy to `gh-pages` branch
 4. Deployment should complete within 2-3 minutes with clear success/failure feedback
 5. Site goes live automatically after successful deployment to GitHub Pages
+
+## Project URL: https://roadmap.sh/projects/github-actions-deployment-workflow

@@ -5,3 +5,11 @@ The goal of this project is to help me learn the notion of continuous integratio
 ## About the project
 
 I wrote a GitHub action file ``deploy.yml`` that deploys any changes made to the index.html file to GitHub Pages. It should only deploy the file when the ``index.html`` file is changed.
+
+## Specification
+
+1. Automatically deploy `index.html` changes to GitHub Pages when pushed to `main` branch
+2. Trigger workflow only when `index.html` file is modified (path filter)
+3. Checkout repository, build artifacts, and deploy to `gh-pages` branch
+4. Deployment should complete within 2-3 minutes with clear success/failure feedback
+5. Site goes live automatically after successful deployment to GitHub Pages
